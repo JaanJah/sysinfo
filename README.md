@@ -8,7 +8,7 @@ CLI for getting system information.
 # Clone repo
 git clone https://github.com/JaanJah/sysinfo.git
 
-# Set alias to sysinfo (~/.bash_aliases)
+# Set alias to sysinfo, this should be path of where you cloned sysinfo repository (file: ~/.bash_aliases)
 alias sysinfo="~/sysinfo/sysinfo.sh"
 
 # Update sysinfo (Pulls git repo and installs packages)
