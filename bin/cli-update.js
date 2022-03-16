@@ -10,7 +10,7 @@ const error = (...args) => console.log(chalk.red.bold(args));
 async function executeCommand(command) {
     const { err, stdout, stderr } = await exec(command);
     if (err || stderr) {
-        error(err.message || stderr);
+        error(err?.message || stderr);
         throw new Error(`Error executing ${command}`);
     }
     console.log(stdout);
