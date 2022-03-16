@@ -6,6 +6,9 @@
   "scripts": {
     "start": ""
   },
+  "engines": {
+    "node": ">=16"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JaanJah/sysinfo.git"
@@ -15,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/JaanJah/sysinfo/issues"
   },
-  "homepage": "https://github.com/JaanJah/sysinfo#readme"
+  "homepage": "https://github.com/JaanJah/sysinfo#readme",
+  "dependencies": {
+    "commander": "^9.0.0"
+  }
 }
