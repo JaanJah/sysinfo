@@ -1,1 +1,1 @@
-node bin/cli.js $@
+node $(dirname "$0")/bin/cli.js $@

@@ -20,9 +20,9 @@ program
     .description('Update sysinfo')
     .action(async () => {
         log('Pulling git repo');
-        await executeCommand('git pull');
+        await executeCommand(`cd ${__dirname} && git pull`);
         log('Installing NPM packages');
-        await executeCommand('npm install');
+        await executeCommand(`cd ${__dirname} && npm install`);
         log('Successfully updated sysinfo');
     });
 
