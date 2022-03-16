@@ -1,1 +1,1 @@
-node bin/cli.js
+node bin/cli.js $@
