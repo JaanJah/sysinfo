@@ -1,0 +1,19 @@
+{
+  "name": "sysinfo",
+  "version": "1.0.0",
+  "description": "CLI to show various system information",
+  "main": "index.js",
+  "scripts": {
+    "start": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaanJah/sysinfo.git"
+  },
+  "author": "JaanJah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JaanJah/sysinfo/issues"
+  },
+  "homepage": "https://github.com/JaanJah/sysinfo#readme"
+}
