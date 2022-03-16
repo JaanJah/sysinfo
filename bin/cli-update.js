@@ -17,7 +17,6 @@ async function executeCommand(command) {
 };
 
 program
-    .description('Update sysinfo')
     .action(async () => {
         log('Pulling git repo');
         await executeCommand(`cd ${__dirname} && git pull`);

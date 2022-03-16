@@ -8,7 +8,6 @@ const prefix = chalk.green.bold;
 const info = chalk.white;
 
 program
-    .description('General')
     .action(() => {
         const version = si.version();
         const time = si.time();
