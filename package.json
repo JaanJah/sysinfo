@@ -4,7 +4,7 @@
   "description": "CLI to show various system information",
   "main": "index.js",
   "scripts": {
-    "start": ""
+    "start": "node bin/cli.js"
   },
   "engines": {
     "node": ">=16"
@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/JaanJah/sysinfo#readme",
   "dependencies": {
-    "commander": "^9.0.0"
+    "chalk": "^4.1.2",
+    "commander": "^9.0.0",
+    "systeminformation": "^5.11.8"
   }
 }
