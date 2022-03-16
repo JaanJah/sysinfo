@@ -2,6 +2,8 @@
 
 CLI for getting system information.
 
+Requires Node 16.
+
 ## Usage
 
 ```sh
