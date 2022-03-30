@@ -22,7 +22,7 @@
   "homepage": "https://github.com/JaanJah/sysinfo#readme",
   "dependencies": {
     "chalk": "^5.0.1",
-    "commander": "^9.0.0",
-    "systeminformation": "^5.11.8"
+    "commander": "^9.1.0",
+    "systeminformation": "^5.11.9"
   }
 }
