@@ -1,6 +1,6 @@
-const { Command } = require('commander');
-const si = require('systeminformation');
-const chalk = require('chalk');
+import { Command } from 'commander';
+import { version as _version, time as _time } from 'systeminformation';
+import chalk from 'chalk';
 
 const program = new Command();
 const log = console.log;
@@ -9,9 +9,8 @@ const info = chalk.white;
 
 program
     .action(() => {
-        const version = si.version();
-        const time = si.time();
-
+        const version = _version();
+        const time = _time();
 
         log(prefix('systeminformation version:', info(version)));
         log(prefix('Epoch time:'), info(time.current));
